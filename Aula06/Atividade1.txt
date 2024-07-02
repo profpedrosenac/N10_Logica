@@ -1,0 +1,8 @@
+Atividade01
+Ler nome e idade e imprima se a pessoa é maior ou menor de idade
+
+Atividade02
+Ler nota 1, nota 2, nota 3, nota 4. Imprima sua média e se o aluno em questão está aprovado ou reprovado. (Média de corte é 5)
+
+Desafio:
+Ler um número, e informar se ele é pár ou ímpar

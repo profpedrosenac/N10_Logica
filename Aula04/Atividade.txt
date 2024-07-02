@@ -1,0 +1,12 @@
+1. Escreva um programa que leia o diametro de uma circunferência e imprima o raio e a área do círculo.
+
+2. Escreva um programa que peça ao usuário para digitar uma quantidade em reais (R$) e a taxa de câmbio para converter essa quantia em dólares (US$). O programa deve exibir o valor convertido.
+
+3. Escreva um programa que peça ao usuário para digitar um valor e imprima a tabuada de 1 a 10 do valor informado.
+
+4. Escreva um programa que leia um valor em Celsius e converta para Fahrenheit
+
+5. Escreva um programa que leia um valor em Fahrenheit e converta para Celsius
+
+Desafio:
+Escreva um programa que leia A, B e C. Imprima o X1 e X2 do valor de bhaskara

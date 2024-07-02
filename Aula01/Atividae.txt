@@ -1,0 +1,17 @@
+Inicio
+  Escreva ("Olá Mundo")
+Fim
+
+Inicio
+  var nome tipo: texto
+  Escreva ("Informe seu nome")
+  nome = Leia()
+  Escreva ("Seu nom é: " & nome)
+Fim
+
+string
+concatenação
+
+Atividade1: Construir um software que leia nome e sobrenome, e imprimir o nome completo.
+Atividade2: Construir um software que leia nome e sobrenome, idade, Salário Bruto, desconto do salário e imprimir
+	Seu nome completo é: ______ com _____ anos e seu salário bruto é ____ com total do salario liquido de _____

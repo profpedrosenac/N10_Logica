@@ -1,0 +1,8 @@
+--Atividade 1
+Criar um sistema que leia nome do aluno, nome da matériam, 4 notas e imprima a média escolar do aluno
+
+--Atividade 2
+Criar um sistema que leia nome do produto, valor unitário, quantidade, imprimir valor total do produto, valor total com 5% de desconto e valor total com 10% de juros
+
+--Atividade 3
+Criar um sistema que leia nome do aluno, nome da matéria, 4 notas e imprimir a média ponderada das notas, sendo nota 1 e nota 2 com peso de 2 e nota 3 e nota 4 com peso 3
