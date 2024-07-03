@@ -1,0 +1,19 @@
+Atividade 1
+Crie um algoritmo que leia um número e verifique se ele é um número primo.
+
+Atividade 2
+Criar um algoritmo que o software escolhe um valor numérico aleatório entre 0 a 10, e solicita que a leitura de um número com esse intervalo, o software tem que aparecer se o valor q vc digitou é maior que o número, menor que o número ou se voce acertou o número. O software não pode aceitar valores infromádos pelo usuário diferentes de 0 e 10.
+
+Atividade 3
+Desenvolva um algoritmo que leia 4 notas, e com base em sua média imprimir:
+9 a 10: A
+8 a 8,9: B
+7 a 7,9: C
+6 a 6,9: D
+0 a 5,9: F
+
+Atividade 4
+Escreva um algoritmo que leia a data de nascimento da pessoa imprimir sua idade e classifica-la em: criança (0-12 anos), adolescente (13-17 anos), jovem adulto (18-30 anos), adulto (31-59) ou idoso (60 anos ou mais).
+
+Atividade 5
+Criar uma calculadora da shopee, ler 2 números e solicitar a operação matemática que ela deverá realizar, imprimir o resultado da operação.
