@@ -2,7 +2,7 @@ Atividade 01
 Ler 4 notas e imprimir a média e se a pessoa está aprovada (Média maior ou igual à 7), reprovada (média menor do que 5) e exame (média entre 5 e menor do que 7) - fazer a validação de dados
 
 Atividade 02
-Ler Peso de um bolo e imprima: peso acima de 10kg a 13kg(ir para venda), peso entre 13Kg a 15(voltar par fábrica)
+Ler Peso de um bolo e imprima: peso acima de 10kg até 13kg(ir para venda), peso acima de 13Kg até 15(voltar par fábrica)
 abaixo de 10Kg (virar cupcake)
 
 Atividade 03
