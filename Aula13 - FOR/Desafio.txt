@@ -1,0 +1,6 @@
+Ler 3 numeros
+  imprimir os números em ordem crescente
+
+
+Ler 10 numeros
+  imprimir os números em ordem decrescente
