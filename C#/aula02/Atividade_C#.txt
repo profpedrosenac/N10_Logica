@@ -1,0 +1,18 @@
+Atividade1
+Ler 4 notas e imprimir a média e se a pessoa está aprovada(maior ou igual à 7), reprovada(menor do que 5), exame (entre 5 e 7)
+
+Atividade2
+Criar um sistema de usuário e senha. Imprimir seja bem vindo ou usuário ou senha inválida
+
+Atividade3
+Criar um sistema que leia produto, qtde, valor unitário e tipo de pagamento. Imprimir valor total e:
+5% desconto no PIX
+10% Juros no Crédito
+15% Juros no boleto
+Sem desconto ou juros no dinheiro.
+
+DESAFIO:
+Ler usuário ou senha. Imprimir seja bem vindo ou usuário ou senha inválida
+Usuário 1: matuzalem | Senha 1: 123a
+Usuário 2: benegundes| Senha 2: vaifilao
+Usuário 3: Judith    | Senha 3: genoveva

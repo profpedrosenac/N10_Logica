@@ -1,0 +1,15 @@
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\bin\Debug\net6.0\Logica_01.exe
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\bin\Debug\net6.0\Logica_01.deps.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\bin\Debug\net6.0\Logica_01.runtimeconfig.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\bin\Debug\net6.0\Logica_01.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\bin\Debug\net6.0\Logica_01.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.csproj.AssemblyReference.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.AssemblyInfoInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.AssemblyInfo.cs
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.csproj.CoreCompileInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\refint\Logica_01.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\Logica_01.genruntimeconfig.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\Logica_01\Logica_01\obj\Debug\net6.0\ref\Logica_01.dll
