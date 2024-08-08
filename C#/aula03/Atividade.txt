@@ -1,0 +1,15 @@
+Lista de Exercício:
+
+1 - Criar um software que leia um número inteiro e conte do 1 até o número informado usando FOR
+
+2 - Criar um software que leia nomes até digitar sair, ao digitar sair deve imprimir a quantidade de nomes informados usando While
+
+3 - criar um sistema que leia números até digitar sair, no final imprimir a quantidade de números pares e números ímpares.
+
+Desafio:
+Coach financeiro de CELTA: Criar um sistema de rentabilidade.
+Aporte Inicial
+Investimento mensal
+Juros anual
+Qtde de meses
+No final imprima a tabela mes a mes do valor rendido.
