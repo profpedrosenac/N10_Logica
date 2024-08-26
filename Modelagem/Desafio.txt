@@ -1,0 +1,6 @@
+Atividade:
+SENAC
+*** Calendário
+ Data / UC / Docente / Sala / Período / contagem das aulas (1 de 10)
+*** Relatório de docente
+*** Relatório de mapa de sala
