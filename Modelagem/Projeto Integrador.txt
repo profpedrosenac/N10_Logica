@@ -1,0 +1,12 @@
+Projeto - 4/9 - Apresentação
+  Rever Regra de Negócio
+  Pensar em todas as telas que o sistema terá
+  Prototipar as telas
+  Todas as telas
+    Requisitos funcionais
+    Requisitos não funcional
+
+  Modelagem de dados
+    DER
+    MER
+    Dicionário de dados
