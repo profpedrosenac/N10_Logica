@@ -105,3 +105,25 @@ references produto(id_produto)
 alter table movimentacao
 add constraint FK_id_funcionario_movimentacao foreign key (id_funcionario_movimentacao)
 references funcionario (id_funcionario)
+
+
+insert into usuario 
+(nome_usuario,login_usuario,senha_usuario,email_usuario,obs_usuario,status_usuario)
+values
+('Asdrubal','asdrubal','123','email','','ATIVO')
+
+select * from usuario
+
+insert into usuario 
+(nome_usuario,login_usuario,senha_usuario,email_usuario,obs_usuario,status_usuario)
+values
+('Administrador','admin','123','admin@admin.com.br','','ATIVO')
+
+delete from usuario where id_usuario = 3
+
+update usuario set 
+	nome_usuario = 'Administrador do Sistema',
+	obs_usuario = 'Nome alterado!'
+where id_usuario = 4
+
+select * from usuario
