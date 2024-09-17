@@ -1,0 +1,17 @@
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.csproj.AssemblyReference.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.csproj.GenerateResource.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.AssemblyInfoInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.AssemblyInfo.cs
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.csproj.CoreCompileInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\bin\Debug\net6.0-windows\Correcao.exe
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\bin\Debug\net6.0-windows\Correcao.deps.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\bin\Debug\net6.0-windows\Correcao.runtimeconfig.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\bin\Debug\net6.0-windows\Correcao.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\bin\Debug\net6.0-windows\Correcao.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.frmCorrecao.resources
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\refint\Correcao.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\Correcao.genruntimeconfig.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_CSharp\aula02\Correcao\Correcao\obj\Debug\net6.0-windows\ref\Correcao.dll
