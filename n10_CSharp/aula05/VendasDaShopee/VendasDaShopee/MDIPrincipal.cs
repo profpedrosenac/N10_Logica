@@ -18,6 +18,8 @@ namespace VendasDaShopee
             InitializeComponent();
         }
 
+        public static float valorTotalCompra = 0;
+
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -28,6 +30,18 @@ namespace VendasDaShopee
             frmVenda frm = new frmVenda();
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        private void parcelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmJuros frm = new frmJuros();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void MDIPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

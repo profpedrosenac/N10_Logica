@@ -136,26 +136,26 @@
             this.cboValor.Enabled = false;
             this.cboValor.FormattingEnabled = true;
             this.cboValor.Items.AddRange(new object[] {
-            "2000",
-            "1500",
-            "300",
-            "400",
-            "2000",
-            "2800",
-            "1800",
-            "300",
-            "5000",
-            "600",
-            "2200",
-            "600",
-            "1000",
-            "4000",
-            "250",
-            "2500",
-            "1200",
-            "1500",
-            "3500",
-            "400"});
+            "R$ 2.000,00",
+            "R$ 1.500,00",
+            "R$ 300,00",
+            "R$ 400,00",
+            "R$ 2.000,00",
+            "R$ 2.800,00",
+            "R$ 1.800,00",
+            "R$ 300,00",
+            "R$ 5.000,00",
+            "R$ 600,00",
+            "R$ 2200,00",
+            "R$ 600,00",
+            "R$ 1.000,00",
+            "R$ 4.000,00",
+            "R$ 250,00",
+            "R$ 2.500,00",
+            "R$ 1.200,00",
+            "R$ 1.500,00",
+            "R$ 3.500,00",
+            "R$ 400,00"});
             this.cboValor.Location = new System.Drawing.Point(298, 42);
             this.cboValor.Name = "cboValor";
             this.cboValor.Size = new System.Drawing.Size(252, 38);
@@ -167,6 +167,7 @@
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.Size = new System.Drawing.Size(198, 36);
             this.txtQtde.TabIndex = 2;
+            this.txtQtde.Text = "0";
             this.txtQtde.Leave += new System.EventHandler(this.txtQtde_Leave);
             // 
             // txtTotal
@@ -176,7 +177,7 @@
             this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(456, 36);
             this.txtTotal.TabIndex = 4;
-            this.txtTotal.Text = "0";
+            this.txtTotal.Text = "R$ 0,00";
             // 
             // cboTipo
             // 
@@ -199,7 +200,7 @@
             this.txtTotalFinal.ReadOnly = true;
             this.txtTotalFinal.Size = new System.Drawing.Size(576, 36);
             this.txtTotalFinal.TabIndex = 5;
-            this.txtTotalFinal.Text = "0";
+            this.txtTotalFinal.Text = "R$ 0,00";
             // 
             // btoOK
             // 

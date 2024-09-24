@@ -10,7 +10,7 @@ namespace VendasDaShopee
         private void cboProduto_SelectedIndexChanged(object sender, EventArgs e)
         {
             cboValor.SelectedIndex = cboProduto.SelectedIndex;
-            txtTotal.Text = "0";
+            txtTotal.Text = "R$ 0,00";
             txtQtde.Text = "0";
         }
 
@@ -19,12 +19,17 @@ namespace VendasDaShopee
         {
             try
             {
-                float valor = float.Parse(cboValor.Text);
+                string bla;
+
+                bla = cboValor.Text.Replace("R$ ", "");
+                bla = bla.Replace(".", "");
+
+                float valor = float.Parse(bla);
                 float qtde = float.Parse(txtQtde.Text);
 
                 float total = valor * qtde;
 
-                txtTotal.Text = total.ToString();
+                txtTotal.Text = total.ToString("C");
             }
             catch (Exception ex)
             {
@@ -34,7 +39,10 @@ namespace VendasDaShopee
 
         private void btoOK_Click(object sender, EventArgs e)
         {
-            float total = float.Parse(txtTotal.Text);
+            string bla = txtTotal.Text.Replace("R$ ", "");
+            bla = bla.Replace(".","");
+
+            float total = float.Parse(bla);
             float totalGeral = 0;
 
             if (cboTipo.SelectedIndex == 0)
@@ -52,13 +60,19 @@ namespace VendasDaShopee
             else if (cboTipo.SelectedIndex == 3)
             {
                 totalGeral = total * 1.25F;
+
+                MDIPrincipal.valorTotalCompra = totalGeral;
+
+                frmJuros frm = new frmJuros();
+                frm.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Erro, Tipo não existente");
                 return;
             }
-            txtTotalFinal.Text = totalGeral.ToString();
+
+            txtTotalFinal.Text = totalGeral.ToString("C");
         }
 
         private void btoSair_Click(object sender, EventArgs e)
@@ -71,8 +85,8 @@ namespace VendasDaShopee
             cboProduto.SelectedIndex = -1;
             txtQtde.Text = "0";
             cboTipo.SelectedIndex = -1;
-            txtTotal.Text = "0";
-            txtTotalFinal.Text = "0";
-        }
+            txtTotal.Text = "R$ 0,00";
+            txtTotalFinal.Text = "R$ 0,00";
+        }       
     }
 }

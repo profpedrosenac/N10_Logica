@@ -65,15 +65,16 @@
             // vendasToolStripMenuItem
             // 
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
-            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.vendasToolStripMenuItem.Text = "Vendas";
             this.vendasToolStripMenuItem.Click += new System.EventHandler(this.vendasToolStripMenuItem_Click);
             // 
             // parcelaToolStripMenuItem
             // 
             this.parcelaToolStripMenuItem.Name = "parcelaToolStripMenuItem";
-            this.parcelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.parcelaToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.parcelaToolStripMenuItem.Text = "Parcela";
+            this.parcelaToolStripMenuItem.Click += new System.EventHandler(this.parcelaToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -112,6 +113,7 @@
             this.Name = "MDIPrincipal";
             this.Text = "MDIPrincipal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MDIPrincipal_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
