@@ -1,0 +1,15 @@
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\bin\Debug\net6.0\Ex04.exe
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\bin\Debug\net6.0\Ex04.deps.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\bin\Debug\net6.0\Ex04.runtimeconfig.json
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\bin\Debug\net6.0\Ex04.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\bin\Debug\net6.0\Ex04.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.csproj.AssemblyReference.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.AssemblyInfoInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.AssemblyInfo.cs
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.csproj.CoreCompileInputs.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\refint\Ex04.dll
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.pdb
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\Ex04.genruntimeconfig.cache
+C:\Users\pedro.lhjunior.SENACEDU\source\repos\n10_Logica\aula03\Ex04\Ex04\obj\Debug\net6.0\ref\Ex04.dll
