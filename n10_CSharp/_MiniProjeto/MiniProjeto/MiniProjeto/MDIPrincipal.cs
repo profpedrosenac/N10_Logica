@@ -36,5 +36,12 @@ namespace MiniProjeto
             frmLogin frm = new frmLogin();
             frm.ShowDialog();
         }
+
+        private void relacionamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRelacionamento frm = new frmRelacionamento();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

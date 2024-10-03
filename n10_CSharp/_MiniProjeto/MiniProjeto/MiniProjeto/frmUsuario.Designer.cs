@@ -53,9 +53,11 @@
             this.btoLimpar = new System.Windows.Forms.Button();
             this.btoSair = new System.Windows.Forms.Button();
             this.btoExcluir = new System.Windows.Forms.Button();
+            this.dataGridUsuario = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -77,6 +79,7 @@
             this.btoPesquisar.TabIndex = 1;
             this.btoPesquisar.Text = "...";
             this.btoPesquisar.UseVisualStyleBackColor = true;
+            this.btoPesquisar.Click += new System.EventHandler(this.btoPesquisar_Click);
             // 
             // txtCodigo
             // 
@@ -257,6 +260,7 @@
             this.btoCadastrar.TabIndex = 0;
             this.btoCadastrar.Text = "Cadastrar";
             this.btoCadastrar.UseVisualStyleBackColor = true;
+            this.btoCadastrar.Click += new System.EventHandler(this.btoCadastrar_Click);
             // 
             // btoAlterar
             // 
@@ -266,6 +270,7 @@
             this.btoAlterar.TabIndex = 1;
             this.btoAlterar.Text = "Alterar";
             this.btoAlterar.UseVisualStyleBackColor = true;
+            this.btoAlterar.Click += new System.EventHandler(this.btoAlterar_Click);
             // 
             // btoLimpar
             // 
@@ -275,6 +280,7 @@
             this.btoLimpar.TabIndex = 2;
             this.btoLimpar.Text = "Limpar";
             this.btoLimpar.UseVisualStyleBackColor = true;
+            this.btoLimpar.Click += new System.EventHandler(this.btoLimpar_Click);
             // 
             // btoSair
             // 
@@ -294,12 +300,24 @@
             this.btoExcluir.TabIndex = 3;
             this.btoExcluir.Text = "Excluir";
             this.btoExcluir.UseVisualStyleBackColor = true;
+            this.btoExcluir.Click += new System.EventHandler(this.btoExcluir_Click);
+            // 
+            // dataGridUsuario
+            // 
+            this.dataGridUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridUsuario.Location = new System.Drawing.Point(791, 21);
+            this.dataGridUsuario.Name = "dataGridUsuario";
+            this.dataGridUsuario.ReadOnly = true;
+            this.dataGridUsuario.RowTemplate.Height = 25;
+            this.dataGridUsuario.Size = new System.Drawing.Size(565, 569);
+            this.dataGridUsuario.TabIndex = 3;
             // 
             // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(797, 597);
+            this.ClientSize = new System.Drawing.Size(1368, 597);
+            this.Controls.Add(this.dataGridUsuario);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -314,6 +332,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -345,5 +364,6 @@
         private ComboBox cboStatus;
         private TextBox textBox1;
         private Label label6;
+        private DataGridView dataGridUsuario;
     }
 }

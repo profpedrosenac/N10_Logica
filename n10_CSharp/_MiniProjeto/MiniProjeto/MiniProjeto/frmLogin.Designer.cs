@@ -79,6 +79,7 @@
             this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(376, 36);
             this.txtSenha.TabIndex = 1;
+            this.txtSenha.Text = "123";
             // 
             // txtUsuario
             // 
@@ -86,6 +87,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(376, 36);
             this.txtUsuario.TabIndex = 0;
+            this.txtUsuario.Text = "admin";
             // 
             // label2
             // 
@@ -107,8 +109,10 @@
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.btoEntrar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btoSair;
             this.ClientSize = new System.Drawing.Size(412, 262);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
