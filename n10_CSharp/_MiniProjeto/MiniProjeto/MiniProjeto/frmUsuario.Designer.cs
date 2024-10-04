@@ -54,6 +54,7 @@
             this.btoSair = new System.Windows.Forms.Button();
             this.btoExcluir = new System.Windows.Forms.Button();
             this.dataGridUsuario = new System.Windows.Forms.DataGridView();
+            this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -305,18 +306,29 @@
             // dataGridUsuario
             // 
             this.dataGridUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridUsuario.Location = new System.Drawing.Point(791, 21);
+            this.dataGridUsuario.Location = new System.Drawing.Point(791, 61);
             this.dataGridUsuario.Name = "dataGridUsuario";
             this.dataGridUsuario.ReadOnly = true;
             this.dataGridUsuario.RowTemplate.Height = 25;
-            this.dataGridUsuario.Size = new System.Drawing.Size(565, 569);
+            this.dataGridUsuario.Size = new System.Drawing.Size(565, 529);
             this.dataGridUsuario.TabIndex = 3;
+            this.dataGridUsuario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsuario_CellContentClick);
+            this.dataGridUsuario.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsuario_CellDoubleClick);
+            // 
+            // txtPesquisaNome
+            // 
+            this.txtPesquisaNome.Location = new System.Drawing.Point(791, 23);
+            this.txtPesquisaNome.Name = "txtPesquisaNome";
+            this.txtPesquisaNome.Size = new System.Drawing.Size(565, 32);
+            this.txtPesquisaNome.TabIndex = 4;
+            this.txtPesquisaNome.TextChanged += new System.EventHandler(this.txtPesquisaNome_TextChanged);
             // 
             // frmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1368, 597);
+            this.Controls.Add(this.txtPesquisaNome);
             this.Controls.Add(this.dataGridUsuario);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
@@ -334,6 +346,7 @@
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsuario)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -365,5 +378,6 @@
         private TextBox textBox1;
         private Label label6;
         private DataGridView dataGridUsuario;
+        private TextBox txtPesquisaNome;
     }
 }

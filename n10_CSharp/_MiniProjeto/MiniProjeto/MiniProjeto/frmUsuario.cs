@@ -40,7 +40,8 @@ namespace MiniProjeto
                 "id_usuario as 'ID'," +
                 "nome_usuario as 'Nome'," +
                 "login_usuario as 'Login' "+
-                "from usuario";
+                "from usuario " +
+                "where nome_usuario like '%" + txtPesquisaNome.Text + "%'";
 
             SqlConnection conn = new SqlConnection(conexao);
             SqlDataAdapter adapter = new SqlDataAdapter(sql, conn);
@@ -106,10 +107,8 @@ namespace MiniProjeto
                     MessageBox.Show("Cadastro realizado com sucesso");
 
                     btoPesquisar.PerformClick();
+                    CarregarGridUsuario();
                 }
-
-
-
             }
             catch (Exception ex)
             {
@@ -143,6 +142,7 @@ namespace MiniProjeto
                 if (i == 1)
                 {
                     MessageBox.Show("Dados alterados com sucesso");
+                    CarregarGridUsuario();
                 }
             }
             catch (Exception ex)
@@ -170,6 +170,7 @@ namespace MiniProjeto
                 if (i == 1)
                 {
                     MessageBox.Show("Dados excluidos com sucesso");
+                    CarregarGridUsuario();
                 }
             }
             catch (Exception ex)
@@ -244,6 +245,22 @@ namespace MiniProjeto
         private void btoLimpar_Click(object sender, EventArgs e)
         {
             LimparDados(this);
+        }
+
+        private void dataGridUsuario_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridUsuario_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtCodigo.Text = dataGridUsuario.CurrentRow.Cells["ID"].Value.ToString();
+            btoPesquisar.PerformClick();
+        }
+
+        private void txtPesquisaNome_TextChanged(object sender, EventArgs e)
+        {
+            CarregarGridUsuario();
         }
     }
 }
