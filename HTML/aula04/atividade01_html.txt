@@ -1,0 +1,19 @@
+Atividade
+
+Criar um site de receitas, com lista de produtos, e modo de preparo
+(layout e cores agradaveis faz parte da atividade)
+
+Criar 3 páginas
+home.html - ter apenas 2 fotos que será levada para as outras receitas 
+receitadoce.html
+receitasalgada.htl
+
+1 CSS para todas as páginas
+todas as páginas devem dar acesso a todas as páginas
+
+Criar galeria de imagem com 10 fotos (pequena e quando clicar abrir a grande)
+
+incorporar vídeos e link
+incorporar mapa
+
+para cada produto deve ter um link que leve para uma loja para comprar o produto em questão.
