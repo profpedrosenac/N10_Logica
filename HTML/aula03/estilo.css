@@ -1,0 +1,21 @@
+body
+{
+    font-family: arial;
+}
+
+.romano{
+    list-style-type: lower-roman;
+}
+
+#TituloDoSite{
+    color: blueviolet;
+    text-align: center;
+}
+
+.bla{
+    list-style-type: square;
+}
+
+.imagemGaleria{
+    height: 150px;
+}

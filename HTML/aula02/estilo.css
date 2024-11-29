@@ -1,0 +1,39 @@
+body{
+    font-family: arial;
+    background-image: url('img/bg_imagem.jpeg');
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    /* background-size: 800px 250px; */
+    background-attachment: fixed;
+    margin-left: 360px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+#dataSite{
+    font-size: 8pt;
+    text-align: right;
+}
+
+.bla{
+    color: darkgreen;
+}
+.vermelho{
+    background-color: red;
+}
+.textoAmarelo{
+    color: yellow;
+}
+.margemIMG{
+    margin: 10px;
+}
+.centroIMG{
+    text-align: center;
+}
