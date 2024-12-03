@@ -1,0 +1,10 @@
+body{
+    font-family: arial;
+}
+
+.tamanhoTabela{
+    width: 100%;
+}
+.alturaCelula{
+    height: 100px;
+}

@@ -6,7 +6,7 @@ Criar um site de receitas, com lista de produtos, e modo de preparo
 Criar 3 páginas
 home.html - ter apenas 2 fotos que será levada para as outras receitas 
 receitadoce.html
-receitasalgada.htl
+receitasalgada.html
 
 1 CSS para todas as páginas
 todas as páginas devem dar acesso a todas as páginas
