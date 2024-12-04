@@ -8,3 +8,11 @@ body{
 .alturaCelula{
     height: 100px;
 }
+
+.textoCentro{
+    text-align: center;
+}
+
+.larguraCelulaImagem{
+    width: 350px;
+}
