@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: arial;
+}
+.total{
+    width: 1366px;
+    margin: auto;
+}
+#topo{
+    height: 150px;
+    background-color: #CCC;
+}
+#menu1{
+    height: 75px;
+    background-color: #AAA;
+}
+#banner{
+    height: 300px;
+    background-color: #CCC;
+}
+#conteudo{
+    height: 500px;
+    background-color: #AAA;
+}
+#rodape{
+    height: 150px;
+    background-color: #CCC;
+}
+#logo{
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#menu2{
+    height: 100px;
+    width: 991px;
+    background-color: yellow;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.subCont{
+    background-color: yellow;
+    height: 450px; 
+    width: 422px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
