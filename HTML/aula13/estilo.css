@@ -1,0 +1,57 @@
+:root{
+    --larguraSite: 1366px;
+    --vermelho: red;
+    --roxo:#6f1396;
+    --roxo2: #450c5d;
+    --magenta: #8d05b9;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.larguraSite{
+    width: var(--larguraSite);
+    margin: auto;
+}
+#topo{
+    height: 150px;
+    background-color: var(--roxo);
+}
+#banner{
+    height: 400px;
+    background-color: var(--vermelho);
+}
+#sectionPesquisa{
+    height: 250px;
+    background-color: var(--roxo);
+}
+#pesquisa{
+    height: 250px;
+    background-color: var(--roxo2);
+}
+#conteudo{
+    height: 500px;
+    background-color: var(--vermelho);
+}
+.cardCont{
+    height: 400px;
+    width: 388px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50.5px;
+    background-color: var(--roxo);
+}
+#rodape{
+    height: 300px;
+    background-color: var(--roxo);
+}
+#sectionRodape{
+    height: 300px;
+    background-color: var(--roxo2);
+}
+.cardRodape{
+    height: 300px;
+    width: 341.5px;
+    background-color: var(--magenta);
+    float: left;
+}

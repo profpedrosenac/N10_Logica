@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: arial;
+}
+
+.total{
+    width: 1200px;
+    margin: auto;
+}
+#topo{
+    height: 150px;
+    background-color: darkgray;
+}
+#menu{
+    height: 75px;
+    background-color: gray;
+}
+#banner{
+    height: 300px;
+    background-color: gainsboro;
+}
+#menuL{
+    width: 200px;
+    height: 500px;
+    background-color: beige;
+    float: left;
+}
+#conteudo{
+    width: 1000px;
+    background-color: blanchedalmond;
+    float: left;
+}
+.quadradinho{
+    height: 280px;
+    width: 180px;
+    padding: 10px;
+    float: left;
+    background-color: cadetblue;
+}
+.quadradinhoBla{
+    height: 280px;
+    width: 180px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 280px;
+}

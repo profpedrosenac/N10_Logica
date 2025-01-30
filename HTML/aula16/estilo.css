@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: arial;
+}
+#topo{
+    width: 1366px;
+    height: 100px;
+    margin: auto;
+    background-color: bisque;
+}
+#menu{
+    height: 50px;
+    width: 1366px;
+    margin: auto;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.itemMenu{
+    height: 50px;
+    width: 341.5px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: cornflowerblue;
+}
+.itemMenu:hover{
+    background-color: rgb(152, 176, 221);
+}
+#menu a{
+    color: black;
+}
+#rodape{
+    width: 1366px;
+    height: 100px;
+    margin: auto;
+    background-color: bisque;
+}
+#conteudo{
+    width: 1366px;
+    height: 300px;
+    margin: auto;
+}

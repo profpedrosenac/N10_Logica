@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: arial;
+}
+
+.geral{
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+    font-size: 24pt;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+}
+
+#div1{
+    top: 25px;
+    left: 25px;
+}
+
+#div2{
+    left: 25px;
+    bottom: 25px;
+}
+
+#div3{
+    right: 25px;
+    top: 25px;
+}
+
+#div4{
+    right: 25px;
+    bottom: 25px;
+}
+
+#div5{
+    top:50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#total{
+    width: 800px;
+    height: 1200px;
+    background-color: darkgray;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+#zapzap{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(2, 124, 84);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#menuShopee{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(184, 135, 11, 1);
+    position: fixed;
+    z-index: 2;
+}
