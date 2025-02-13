@@ -1,0 +1,13 @@
+.div1{
+    background-color: aqua;
+    height: 150px;
+    font-size: 50pt;
+    text-align: center;
+}
+.div2{
+    background-color: blue;
+    height: 150px;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+}

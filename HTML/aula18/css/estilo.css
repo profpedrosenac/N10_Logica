@@ -1,0 +1,31 @@
+.corqualquer{
+    background-color: red;
+}
+.logo{
+    height: 150px;
+    background-color: yellow;
+}
+.menu{
+    height: 150px;
+    background-color: aqua;
+}
+.redesocial{
+    height: 150px;
+    background-color: chartreuse;
+}
+.banner{
+    height: 300px;
+    background-color: bisque;
+}
+.cont{
+    height: 300px;
+    background-color: blueviolet;
+    color: white;
+}
+.imgCont{
+    height: 180px;
+    background-color: darkgrey;
+}
+.rodape{
+    background-color: hotpink;
+}

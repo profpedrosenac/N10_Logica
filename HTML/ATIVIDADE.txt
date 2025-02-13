@@ -1,0 +1,16 @@
+Site de viagens
+
+Páginas: Home, Destinos, Sobre Mim, Contato
+Descrição: Um site para compartilhar suas aventuras de viagem, com páginas para diferentes destinos, um blog para posts detalhados e uma página sobre o autor.
+
+
+Na página de contato fazer um formulário de cadastro com os seguintes campos:
+
+Nome
+endereço (utilizar a API VIACEP)
+   CEP, logradouro, numero, complemento, bairro, cidade, UF
+Telefone
+Mensagem
+
+- o formulário deverá ser formatado em bootstrap
+- O formulário deverá ser enviado para uma pagina PHP que fará a validação dos mesmos (caso algum campo não esteja preechido parecer que o campo em questão deve ser preenchido, se tudo estiver OK aparecer uma mensagem (formatado em bootstrap) cadastro realizado com sucesso
