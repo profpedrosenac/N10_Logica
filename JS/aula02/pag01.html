@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 id="titulo">Nomes e Sobrenomes</h1>
+    <hr>
+    <p>
+        <input type="text" placeholder="Informe seu nome" id="txtNome" name="txtNome">
+    </p>
+    <p>
+        <input type="text" placeholder="Informe seu Sobrenome" id="txtSobrenome" name="txtSobrenome">
+    </p>
+    <p>
+        <button id="btoOK" name="btoOK" onclick="NomeCompleto()">OK</button>
+    </p>
+    <hr>
+    <div id="result"></div>
+    <hr>
+
+    <h1>Calculadora da Shopee</h1>
+    <p>Ler 2 números e imprimir o resultado desses 2 numermos com base nos botões:</p>
+    <p>Mais / Menos / Vezes / Dividir</p>
+
+    <hr>
+
+    <h1>Sistema de média Escolar</h1>
+    <p>Ler 4 números e imprimir a média escolar utilizando a formatação no bootstrap</p>
+    <p>o software tem que retornar APROVADO, REPROVADO e EXAME, criar uma formatação pro resultado diferenciado para cada status</p>
+    
+
+    <script>
+        let nome = document.getElementById("txtNome")
+        let sobrenome = document.getElementById("txtSobrenome")
+        let nomeTotal = ""
+
+        //console.log(document.getElementById("titulo").innerHTML)
+
+        function NomeCompleto() {
+            if (nome.value == "") {
+                alert("Nome deve ser preenchido.")
+                nome.focus()
+                return
+            }
+            if (sobrenome.value == "") {
+                alert("Sobrenome deve ser preenchido.")
+                sobrenome.focus()
+                return
+            }
+
+            nomeTotal = nome.value + " " + sobrenome.value
+            document.getElementById("result").innerHTML = nomeTotal
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Js dos brodis</h1>
+    <hr>
+    <p>
+        <label for="txtNome">Nome</label>
+        <input type="text" name="txtNome" id="txtNome">
+    </p>
+    <p>
+        <button id="btoOK" name="btoOK" onclick="bla()">OK</button>
+        <button id="btoOK2" name="btoOK2" onclick="verNome()">Qual seu Nome?</button>
+    </p>
+    <script>
+        function bla(){
+            alert("Professor Pedro é muito Legal!")
+        }
+
+        function verNome(){
+            nome = document.getElementById("txtNome").value
+            if (nome == "") {
+                alert("Seu animal, nome deve ser preenchido")                
+            }
+            else
+            {
+                alert(nome)
+                document.getElementById("txtNome").value = ""
+                document.getElementById("txtNome").focus()
+            }            
+        }
+    </script>
+</body>
+</html>

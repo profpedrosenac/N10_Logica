@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora da Shopee</h1>
+    <p>Ler 2 números e imprimir o resultado desses 2 numermos com base nos botões:</p>
+    <p>Mais / Menos / Vezes / Dividir</p>
+
+    <form action="" onsubmit="return false;">
+        <p>
+            <label for="txtN1">N1</label>
+            <input type="number" name="txtN1" id="txtN1">
+        </p>
+        <p>
+            <label for="txtN2">N2</label>
+            <input type="number" name="txtN2" id="txtN2">
+        </p>
+        <p>
+            <button id="btoMais" onclick="Mais()">+</button>
+            <button id="btoMenos" onclick="Menos()">-</button>
+            <button id="btoVezes" onclick="Vezes()">*</button>
+            <button id="btoDividir" onclick="Dividir()">/</button>
+            <button id="btoCE" onclick="CE()">CE</button>
+        </p>
+    </form>
+    <div id="resultCalc">0</div>
+    <hr>
+
+    <h1>Sistema de média Escolar</h1>
+    <p>Ler 4 números e imprimir a média escolar utilizando a formatação no bootstrap</p>
+    <p>o software tem que retornar APROVADO, REPROVADO e EXAME, criar uma formatação pro resultado diferenciado para cada status</p>
+   
+
+    <script>
+        let n1 = document.getElementById("txtN1")
+        let n2 = document.getElementById("txtN2")
+        let total = 0
+        let resultado = document.getElementById("resultCalc")
+        function Mais(){
+            total = parseFloat(n1.value) + parseFloat(n2.value)
+            resultado.innerHTML = total
+        }
+        function Menos(){
+            total = parseFloat(n1.value) - parseFloat(n2.value)
+            resultado.innerHTML = total
+        }
+        function Vezes(){
+            total = parseFloat(n1.value) * parseFloat(n2.value)
+            resultado.innerHTML = total
+        }
+        function Dividir(){
+            total = parseFloat(n1.value) / parseFloat(n2.value)
+            resultado.innerHTML = total
+        }
+        function CE(){
+            n1.value = ""
+            n2.value = ""
+            resultado.innerHTML = "0"
+        }
+    </script>
+</body>
+</html>

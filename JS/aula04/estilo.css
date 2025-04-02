@@ -1,0 +1,16 @@
+body{
+    font-family: arial;
+}
+#resultCalc{
+    background-color: gainsboro;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+}
+
+.azul{
+    background-color: cornflowerblue;
+}
+.vermelho{
+    background-color: lightpink;
+}

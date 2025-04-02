@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+
+    <h1>Sistema de média Escolar</h1>
+    <p>Ler 4 números e imprimir a média escolar utilizando a formatação no bootstrap</p>
+    <p>o software tem que retornar APROVADO, REPROVADO e EXAME, criar uma formatação pro resultado diferenciado para cada status</p>
+    <hr>
+
+    <h1 class="azul">Sistema de vendas do bigode</h1>
+    <p>Criar um sistema que leia</p>
+    <ol>
+        <li>Nome do produto (combobox do html)</li>
+        <li>Valor unitário (com base no produto escolhido deve aparecer o valor)</li>
+        <li>Quantidade</li>
+        <li>Valor total da compra (quando terminar de digitar a quantidade o total deve aparecer sozinho)</li>
+    </ol>
+    <p>Criar botão total com 25% juros / Total com 5% desconto</p>
+    <hr>
+    <form action="" onsubmit="return false">
+        <p>
+            <label for="txtProduto">Nome do Produto</label> <br>
+            <select name="txtProduto" id="txtProduto" onchange="PegarValor()">
+                <option value=""> -- Selecione o produto -- </option>
+                <option value="5999">Smartphone Samsung Galaxy S21</option>
+                <option value="20016">Notebook Dell XPS 13</option>
+                <option value="798">Cafeteira Nespresso Inissia</option>
+                <option value="1699">Fone de Ouvido Sony WH-1000XM4</option>
+                <option value="4899">Smartwatch Apple Watch Series 7</option>
+                <option value="4299">Câmera Canon EOS Rebel T7</option>
+                <option value="3899">Console PlayStation 5</option>
+                <option value="869">Bicicleta Elétrica Xiaomi Mi</option>
+                <option value="4299">Aspirador de Pó Robô Roomba i7</option>
+                <option value="809">Tablet Amazon Fire HD 10</option>
+            </select>
+        </p>
+        <p>
+            <label for="txtValorUnit">Valor unitário</label><br>
+            <input type="text" name="txtValorUnit" id="txtValorUnit" readonly>
+        </p>
+        <p>
+            <label for="txtQtde">Quantidade</label><br>
+            <input type="number" name="txtQtde" id="txtQtde" onblur="TotalCompra()">
+        </p>
+        <p>
+            <label for="txtTotal">Total do Item</label><br>
+            <input type="text" name="txtTotal" id="txtTotal" readonly>
+        </p>
+        <p>
+            <button id="btoJuros" onclick="Juros(25)">Juros 25%</button>
+            <button id="btoDesconto" onclick="Desconto(5)">Desconto 5%</button>
+        </p>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
